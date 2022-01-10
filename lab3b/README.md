@@ -1,30 +1,44 @@
-# Sort of Sorting
+# Coconut Splat
 
 ## Problem Description
 
-Can you believe school has already started? It seems like we were just finishing last semester. Last semester was tough because the administration had a hard time keeping records of all the students in order, which slowed everything down. This year, they are going to be on top of things. They have recognized that you have the skills to help them get into shape with your programming ability, and you have volunteered to help. You recognize that the key to getting to student records quickly is having them in a sorted order. However, they don’t really have to be perfectly sorted, just so long as they are sort-of sorted.
+Coconut Splat is one of Theta’s favorite counting-out games. It goes like this: initially, all players stand in a circle with their hands folded together (like an intact coconut). In clockwise order, one player touches the hands of the other players and says the rhyme: “Co-co-nut, Co-co-nut, Co-co-nut, Splat!” At each syllable, the player touches a hand, and the player whose hand or hands is touched last takes one of the following actions:
 
-Write a program that sorts a list of student last names, but the sort only uses the first two letters of the name. Nothing else in the name is used for sorting. However, if two names have the same first two letters, they should stay in the same order as in the input (this is known as a ‘stable sort’). Sorting is case sensitive based on ASCII order (with uppercase letters sorting before lowercase letters, i.e., A < B < … < Z < a < b < … < z).
+If the player’s hands are still folded, they are split into two fists (the coconut is cracked in two halves). The next round starts with the fist that is the first half of the coconut, then the second half, then going to the next player.
+If a fist is touched last, the hand is turned palm down (the milk spills out). The next round starts with the next hand in clockwise order, which could be the other hand of the same player, or it could be the hand or folded hands belonging to the next player.
+If a hand that is already turned palm down is touched last, the player to whom it belongs puts the hand behind their back and this hand won’t be counted in the following rounds. The next round starts with the next hand in clockwise order as in the previous case.
+If a player has put both of their hands behind their back, that player is out of the game. The game ends when there is only one player left.
+The hand or hands of the player doing the counting are taken into account (for instance, the counting player touches their thigh when it would be his/her turn for the hand to be touched).
+
+There are variations of this game, for instance, some kids say “Coconut, coconut, crack your nut!” instead, which has only 9 instead of 10 syllables as in the “Co-co-nut, Co-co-nut, Co-co-nut, Splat!” rhyme.
+
+There are n players, and counting always starts with the folded hands of player 1. For instance, in the first round, if the rhyme has 3 syllables, player 3 would be the one to first crack their coconut into two fists.
+
+Write a program that determines the winner of the counting-out game based on the number of players and based on the number of syllables in the rhyme that is used!
 
 ## Input
 
-Input consists of a sequence of up to 500 test cases. Each case starts with a line containing an integer 1 ≤ n ≤ 200. After this follow n last names made up of only letters (a–z, lowercase or uppercase), one name per line. Names have between 2 and 20 letters. Input ends when n = 0.
+The input consists of a single test case with two numbers s (0 < s ≤ 100) and n (2 ≤ n ≤ 100) denoting the number of syllables in the rhyme and the number of players, respectively.
 
 ## Output
 
-For each case, print the last names in sort-of-sorted order, one per line. Print a blank line between cases.
+Output a single integer p (1 ≤ p ≤ n), the number of the player who is left.
+
+## Warning
+
+The I/O files are large. Please use fast I/O methods.
 
 ## Time & Memory Limit
 
-2 seconds, 256MB
+1 second, 256MB
 
 ## File Restriction
 
-You should upload at least a file named SortOfSorting.java, and a SortOfSorting class in the .java file.
+You should upload at least a file named CoconutSplat.java, and a CoconutSplat class in the .java file.
 
 You should not amend any existing lines that is given in the skeleton file. You can, however, add code into the file.
 
 However, you can remove the Kattio class, if you wish.
 
-Your main function should not throw an Exception, and you should handle catching any Exception, if necessary. 
+Your main function should not throw an Exception, and you should handle catching Exception in the main function, if necessary. 
 
