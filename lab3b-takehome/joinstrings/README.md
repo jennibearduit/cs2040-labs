@@ -1,4 +1,4 @@
-# Question 1: Join Strings
+# Join Strings
 
 ## Problem Description
 
