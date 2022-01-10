@@ -1,3 +1,5 @@
+# Simon Says
+
 ## Problem Description
 
 In the game “Simon Says” one person plays the role of Simon, who gives instructions to everyone else playing the game. The tricky part is that if Simon begins his instruction with “Simon says” then everyone else must follow the instruction (or they lose the game); if Simon gives an instruction that does not begin with “Simon says” then everyone is supposed to completely ignore the instruction (or they lose the game)!
