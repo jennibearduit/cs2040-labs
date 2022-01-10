@@ -8,7 +8,11 @@ To perform the trick with the mortars, Rar first casts a spell onto a cat, makin
 
 For example, given the following point a and b with the position of the mortars:
 
+<img width="441" alt="Screenshot 2022-01-10 at 5 31 14 PM" src="https://user-images.githubusercontent.com/77873928/148743988-1b464b7d-6138-4ff0-a855-cd30469b1f94.png">
+
 A cat can choose to follow a path to get from point a and b. Note that the arrows show places where the cat launch itself out of a mortar, and the lines show where it ran to the next mortar or to the destination.
+
+<img width="393" alt="Screenshot 2022-01-10 at 5 31 32 PM" src="https://user-images.githubusercontent.com/77873928/148744009-7efe9de1-cd7c-450c-8a56-c59fe5c5feb9.png">
 
 All of Rar's cats run at 5 meters per second. All mortars launch cats to a distance of 50 metres strictly in any direction it likes. Climbing into a mortar, launching itself, and landing takes a total of 2 seconds. (i.e. If a cat uses a mortar, it travels 50 meters strictly in 2 seconds). Mortars are not much of an obstacle to cats; they can jump over it without slowing them down if they choose to run over it.
 
