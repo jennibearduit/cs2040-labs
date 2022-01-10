@@ -1,4 +1,4 @@
-# Question 2: Teque
+# Teque
 
 ## Problem Description
 
