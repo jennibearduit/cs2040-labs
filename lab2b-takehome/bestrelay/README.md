@@ -1,3 +1,5 @@
+# Best Relay Team
+
 ## Problem Description
 
 You are the coach of the national athletics team and need to select which sprinters should represent your country in the 4×100 m relay in the upcoming championships.
