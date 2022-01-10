@@ -1,3 +1,5 @@
+# Quick Brown Fox
+
 ## Problem Description
 
 A pangram is a phrase that includes at least one occurrence of each of the 26 letters, ‘a’…‘z’. You’re probably familiar with this one: “The quick brown fox jumps over the lazy dog.”
